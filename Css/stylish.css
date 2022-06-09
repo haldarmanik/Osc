@@ -1,0 +1,178 @@
+body
+{
+ text-align: center;
+ padding: 0%;
+ margin: 0%;
+ 
+
+}
+.bg-color
+{
+    background-color:hsl(225, 100%, 94%);
+}
+
+.pattan-bg
+{
+    width: 100%;
+    
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:#fff;
+    width: 366px;
+    height: 580px;
+    margin: auto;
+    position: absolute;
+    top: 6%;
+    left: 35%;
+    border-radius:15px;
+    
+    
+}
+
+.hero-svg
+{
+    width:100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+    
+}
+
+h1
+{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p
+{
+    font-family: 'Red Hat Display', sans-serif;
+    color:  hsl(224, 23%, 55%);
+    
+}
+
+.p 
+{
+    font-family: 'Red Hat Display', sans-serif;
+    line-height:1.7;
+    /* position: relative;
+    right:60px;
+    top: 20px; */
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color:hsl(225, 100%, 98%);
+    width: 85%;
+    margin: 0 25px;
+    border-radius: 7px;
+    
+    
+}
+
+h4
+{
+    font-family: 'Red Hat Display', sans-serif;
+    width: 60%;
+    font-size: 0.87rem;
+    font-weight: 900;
+      
+}
+
+h3
+{
+    font-family: 'Red Hat Display', sans-serif; 
+    
+}
+
+
+span
+{
+    font-family: 'Red Hat Display', sans-serif; 
+    font-weight: 500;
+    color:hsl(224, 23%, 55%);
+}
+
+.music-icon
+{
+    margin: 0 15px;
+}
+
+.btn-color
+{
+  background-color:hsl(245, 75%, 52%);
+  color:#fff;
+  width:85%;
+  border-radius: 10px;
+  border: transparent;
+  margin-top: 22px;
+}
+
+.btn-color:hover
+{
+    background-color: hsl(224, 23%, 55%);
+}
+
+.body-text
+{
+    position: relative;
+    bottom: 10px;
+}
+ 
+a
+{
+    color:hsl(245, 75%, 52%);
+    font-weight: 900;
+}
+
+a:hover 
+{
+    text-decoration: wavy;
+    color:hsl(224, 23%, 55%);
+}
+
+.can-text
+{
+    color:hsl(224, 23%, 55%);
+}
+
+.can-text:hover 
+{
+    color: hsl(223, 47%, 23%) ;
+}
+
+@media (max-width:375px){
+
+    body
+    {
+        height: 667px;
+    }
+
+    .body-text
+    {
+       width: 80%;
+       margin: auto;
+       margin-bottom: 15px;
+    }
+    .card
+    {
+       width: 335px;
+       left:12px;
+       
+       
+    }
+
+    .card-body
+    {
+        line-height: 1.5;
+    }
+    
+    a 
+    {
+        position: relative;
+        right: 15px;
+    }
+}
